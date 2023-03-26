@@ -4,8 +4,64 @@ p {
 }
 a {
     font-family:montserrat;
+    text-decoration:none;
 }
 
 .navbar {letter-spacing:2px; font-size:15px;}
 .navbar .button {letter-spacing:2px;}
+
+h2 {
+    font-family:montserrat;
+    font-weight:700;
+    font-size:55px;
+    line-height:1.1;
+}
+
+.containerblau {
+    background-color:#5266DF;
+}
+
+.emptyrow {
+    min-height:350px;
+}
+
+.imagenfirstrow {
+    border-color:#28292B;
+    border-width:25px;
+    border-radius:25px;
+    border-style:solid;
+    background-color:#28292B;
+    z-index:5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.botonazul {
+    color:white;
+    background-color:#5266DF;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border:none;
+    padding:10px 15px 10px 15px;
+}
+
+.button {
+    font-size:19px;
+    font-family:montserrat;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+
+.botongris {
+    color:#28292B;
+    background-color:lightgrey;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border:none;
+    padding:10px 15px 10px 15px;
+}
+
+.button:hover {
+    transform: scale(1.5);
+}
+
 
