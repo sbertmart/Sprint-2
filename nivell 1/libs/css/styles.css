@@ -2,6 +2,16 @@
     padding-left:5%!important;
 }
 
+.tabs-segundo li {
+    font-size:20px;
+    font-weight:400;
+}
+
+.tabs-segundo a {
+    color:black;
+    text-transform:none;
+}
+
 @media (max-width:768px) {
     .imatgeseccio1 {
         margin-left:0!important;
