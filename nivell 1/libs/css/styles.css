@@ -1,0 +1,17 @@
+.text-tercera {
+    padding-left:5%!important;
+}
+
+@media (max-width:768px) {
+    .imatgeseccio1 {
+        margin-left:0!important;
+        margin-right:0!important;
+        margin-top:-40%!important;
+    }
+    .containerblau {
+        margin-top:25%!important;
+    }
+    .text-tercera {
+        padding:auto!important;
+    }    
+}
