@@ -26,6 +26,10 @@
     font.weight:600;
 }
 
+.navbarfooter a{
+    color:white;
+}
+
 @media (max-width:768px) {
     .imatgeseccio1 {
         margin-left:0!important;
