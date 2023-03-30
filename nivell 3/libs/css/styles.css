@@ -1,0 +1,142 @@
+.text-tercera {
+    padding-left:5%!important;
+}
+
+.imagencard {
+    width:100px;
+   margin:0 auto;
+}
+
+.tabs-segundo li {
+    font-size:20px;
+    font-weight:400;
+}
+
+.tabs-segundo a {
+    color:black;
+    text-transform:none;
+}
+
+.sombracard {
+    box-shadow:5px 5px 10px rgba(0,0,0,0.2)!important; 
+}
+
+.titulofaqs {
+    font-size:25px;
+    font.weight:600;
+}
+
+.btn-primary:hover{
+
+    background-color:rgba(255,255,255,0)!important;
+    border-width:2px;
+    border-style:solid;
+    border-color:#0074d9;
+    color:#0074d9;  
+}
+
+.btn-primary > a:hover {
+    color:#0074d9!important; 
+}
+
+.btn-secondary:hover{
+
+    background-color:rgba(255,255,255,0)!important;
+    border-width:2px;
+    border-style:solid;
+    border-color:#ff4136;
+    color:#ff4136; 
+}
+
+.btn-secondary > a:hover {
+    color:#ff4136!important; 
+}
+
+.boto-submit {
+    color:white;
+}
+
+.boto-submit:hover {
+
+    background-color:white!important;
+    border-width:2px;
+    border-style:solid;
+    border-color:#ff4136;
+    color:#ff4136; 
+}  
+
+.nav-item > a:hover {
+    color:#ff4136!important; 
+}
+
+.nav-item > a > img:hover {
+    filter: invert(43%) sepia(17%) saturate(3426%) hue-rotate(323deg) brightness(94%) contrast(123%);
+}
+
+.accordion-header > button:hover {
+    color:#ff4136!important; 
+}
+
+.valid-feedback {
+    background-color:green!important;
+    color:white!important;
+    padding:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-top:-2px;
+}
+
+.invalid-feedback {
+    background-color:#ff4136!important;
+    color:white!important;
+    padding:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-top:-2px;
+}
+
+.container-cards .card:nth-child(1) {
+    margin-top:0!important;
+}
+
+.container-cards .card:nth-child(2) {
+    margin-top:10%!important;
+}
+
+.container-cards .card:nth-child(3) {
+    margin-top:20%!important;
+}
+
+
+@media (max-width:768px) {
+    .imatgeseccio1 {
+        margin-left:0!important;
+        margin-right:0!important;
+        margin-top:-40%!important;
+    }
+
+    .imatgeseccio2 {
+        margin-left:0!important;
+        margin-right:0!important;
+        margin-top:-40%!important;
+        width:90%!important;
+    }
+    .containerblau {
+        margin-top:25%!important;
+    }
+    .text-tercera {
+        padding:auto!important;
+    }    
+
+    #features {
+        margin-top:15%!important;
+        margin-bottom:15%!important;
+    }
+
+    #features .nav-underline .nav-link {
+        border-top-width:1px!important;
+        border-top-color:grey!important;
+        border-top-style:solid!important;
+    }
+
+}
