@@ -1,3 +1,7 @@
+body {
+    overflow-x:hidden;
+} 
+
 .text-tercera {
     padding-left:5%!important;
 }
